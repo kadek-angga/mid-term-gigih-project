@@ -548,9 +548,9 @@ Test the API Endpoint with API platform or API program like Postman or similar
 **Videos Endpoint**
 ---
 * GET http:/localhost:3000/videos (Retrieve all videos)
-* GET http:/localhost:3000/videos/:id: (Retrieve a single video by ID)
-* GET http:/localhost:3000/videos/products/:id: (Retrieve a product associated with specified video)
-* GET http:/localhost:3000/comments/products/:id: (Retrieve a comment associated with specified video)
+* GET http:/localhost:3000/videos/:id (Retrieve a single video by ID)
+* GET http:/localhost:3000/videos/products/:id (Retrieve a product associated with specified video)
+* GET http:/localhost:3000/comments/products/:id (Retrieve a comment associated with specified video)
 * POST http:/localhost:3000/videos/post (Create a new video)
 * POST http:/localhost:3000/videos/post/comment/:id (Create a new comment by specified video)
 * PUT http:/localhost:3000/videos/edit/:id (Update a video by ID)
@@ -559,7 +559,7 @@ Test the API Endpoint with API platform or API program like Postman or similar
 **Products Endpoint**
 ---
 * GET http:/localhost:3000/products (Retrieve all product)
-* GET http:/localhost:3000/products/:id: (Retrieve a single product by ID)
+* GET http:/localhost:3000/products/:id (Retrieve a single product by ID)
 * POST http:/localhost:3000/products/post (Create a new product)
 * PUT http:/localhost:3000/products/edit/:id (Update a product by ID)
 * DELETE http:/localhost:3000/products/delete/:id (Delete a product by ID)
