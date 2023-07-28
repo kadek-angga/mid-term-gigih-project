@@ -515,7 +515,7 @@ Mid-Term Project (Backend Only) build REST API Tokopedia Play clone
 }
 ```
 
-## Installation
+## Installation (How To RUN!)
 
 Clone this project
 
